@@ -1,0 +1,169 @@
+.main{
+  height: fit-content;
+  width: 100vw;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.profileName{
+  width: 40vw;
+  height: 100vh;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  left: 0;
+}
+.userWrapper{
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.userWrapper h1{
+  color: #FFF;
+  font-family: "Roboto Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px; /* 112.5% */
+}
+
+.userWrapper h6{
+  display: flex;
+  padding: 2px 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #09B1BC;
+
+  color: #FFF;
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px; /* 225% */
+}
+
+.contactItem{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.icContact:hover path{
+  fill-opacity: 1;
+}
+
+
+.contentWrapper{
+  width: 60vw;
+  min-height: 100vh;
+  display: flex;
+  padding: 100px;
+  flex-direction: column;
+  grid-gap: 48px;
+}
+
+.summarySection{
+  display: flex;
+  grid-gap: 6px;
+  flex-direction: column;
+}
+
+.summarySection h2{
+  color: #FFF;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: 2%;
+}
+
+.summarySection p{
+  color: rgba(255, 255, 255, 0.80);
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+  margin-bottom: 16px;
+}
+
+.button{
+  color: #09B1BC;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: 4%;
+}
+
+.listItem{
+  display: flex;
+  grid-gap: 16px;
+  padding: 24px 0 24px 0;
+}
+
+.year{
+  width: 20%;
+}
+
+.jobDesc{
+  width: 100%;
+}
+
+.company{
+  text-decoration: none;
+  color: white;
+}
+
+
+.company:hover{
+  color: #09B1BC;
+}
+
+.skillWrapper{
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.skillSet{
+  background: rgba(9, 177, 188, 0.1);
+  color: rgb(9, 177, 188);
+  padding: 4px 6px;
+}
+
+.button a{
+  text-decoration: none;
+  color: #09B1BC;
+}
+
+@media only screen and (max-width: 1365px) {
+  .main{
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profileName{
+    width: 100vw;
+    position: relative;
+    padding: 48px 48px 24px 48px;
+    height: fit-content;
+    justify-content: flex-start;
+  }
+
+  .contentWrapper{
+    width: 100vw;
+    padding: 24px 48px 48px 48px;
+  }
+}
