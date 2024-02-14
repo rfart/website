@@ -36,27 +36,19 @@ export const experiences = [
   },
 ];
 
-export const certifications = [
+export const projects = [
   {
-    role: 'Secureum Bootcamp Epoch 0',
-    company: 'Ethereum Foundation',
-    website: 'https://ethereum.org/foundation',
-    description : "Odio pretium libero adipiscing mauris urna purus odio imperdiet. Aliquam felis lacinia arcu elementum pharetra at. Viverra massa lacus amet arcu consequat tortor tellus. Purus accumsan a velit curabitur scelerisque eu mattis nec. Dictum gravida dolor ullamcorper mauris id dis massa.",
-    year: 'Oct — Dec 2021'
+    role: 'Baby Boom Token (BBT)',
+    company: 'SellOn',
+    website: 'https://ethereum.org/foundationhttps://babyboomtoken.com/',
+    description : "I played a key role in developing and implementing the smart contract for our project, seamlessly integrating it into the application. This involved crafting a robust smart contract that not only ensures the security and reliability of transactions but also enhances the overall functionality of the application. My contributions extended beyond mere coding, as I actively collaborated with the team to ensure a smooth integration process, resulting in a more sophisticated and efficient project ecosystem.",
+    year: 'Dec 2023'
   },
   {
-    role: 'CCNA Cybersecurity Operations',
-    company: 'CISCO',
-    website: 'https://www.cisco.com/',
-    description : "Odio pretium libero adipiscing mauris urna purus odio imperdiet. Aliquam felis lacinia arcu elementum pharetra at. Viverra massa lacus amet arcu consequat tortor tellus. Purus accumsan a velit curabitur scelerisque eu mattis nec. Dictum gravida dolor ullamcorper mauris id dis massa.",
-    year: 'Aug 2019'
+    role: 'Seaport Opensea',
+    company: 'Code4rena',
+    website: 'https://opensea.io/Seaport-NFT',
+    description : "Validating the code flow within the smart contracts, ensuring strict adherence to established processes. Additionally, I identified and addressed a non-optimal function that was adversely impacting the gas transaction fee. By pinpointing and optimizing this function, I significantly enhanced the efficiency and cost-effectiveness of the overall transaction process, contributing to the project's robustness and performance.",
+    year: 'Jun 2022'
   },
-  {
-    role: 'CCNA Security',
-    company: 'CISCO',
-    website: 'https://www.cisco.com/',
-    description : "Odio pretium libero adipiscing mauris urna purus odio imperdiet. Aliquam felis lacinia arcu elementum pharetra at. Viverra massa lacus amet arcu consequat tortor tellus. Purus accumsan a velit curabitur scelerisque eu mattis nec. Dictum gravida dolor ullamcorper mauris id dis massa.",
-    year: 'Aug 2019'
-  }
-
 ];
